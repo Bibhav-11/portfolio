@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/faviconv2.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-light.png" media="(prefers-color-scheme: light)">
+    <script defer src="particles.js"></script>
+    <script defer src="script.js"></script>
+    <title>Bibhav Lamichhane</title>
+</head>
+<body>
+
+    <header id="home">
+        
+
+        <nav>
+            <div class="container container--large nav__container">
+                <a href="" class="nav__logo"><img src="./assets/favicon.png" alt=""></a>
+
+                <a href="#" id="nav-toggle" class="nav__menu">
+                    <img class="nav__ham" src="./assets/menu.svg" alt="">
+                    <img class="nav__close" src="./assets/close.svg" alt="">
+                </a>
+
+                <div class="nav__links">
+                    <ul>
+                        <li><a id="home-button" href="">Home</a></li>
+                        <li><a id="about-button" href="">About</a></li>
+                        <li><a id="projects-button" href="">Projects</a></li>
+                    </ul>
+                </div>
+
+                <a href="" id="contact-button" class="nav__button">
+                    Contact
+                </a>
+
+                <div class="nav__options">
+                    <ul>
+                        <li><a id="home-button" href="">Home</a></li>
+                        <li><a id="about-button" href="">About</a></li>
+                        <li><a id="projects-button" href="">Projects</a></li>
+                        <li><a id="contact-button" href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div id="particles-js"></div>
+            <div class="container container--small">
+                <h1 class="hero__heading">
+                    Hi, I'm Bibhav.
+                </h1>
+                <p class="hero__location">
+                    <img src="./assets/map-marker.svg" alt="">
+                    Kathmandu, NP
+                </p>
+                <p class="hero__details">
+                    I build responsive websites that provides an optimal user experience which can help achieve your goals.
+                </p>
+            </div>
+        </div>
+
+        <main>
+            <section id="about" class="about container container--large">
+                <div class="about__detail">
+                    <h2 class="about__heading">About Me</h2>
+                    <p>
+                        I'm Bibhav, a Computer Science undergrad and an aspiring front-end developer who enjoys taking on new challenges and is always looking for ways to improve. I value critical thinking, punctuality and attention to detail. The journey from never writing a line of code to be able to self-learn web development has been a crazy one, and I'm still planning on learning more!
+                    </p>
+                    <p><a class="about__download" href="./assets/resume.pdf" download>Download my CV</a></p>
+                </div>
+                <img src="./assets/aboutme.jpg" alt="" class="about__photo">
+            </section>
+            
+            <section id="projects" class="projects">
+                
+                <div class="container container--small">
+                    
+                    <a href="https://rest-countries-project-react.netlify.app/" target="_blank" class="project">
+                        <img class="project__image" src="/assets/restcountries.png" alt="">
+                        <div class="project__text">
+                            <h3 class="project__title">Rest Countries Search</h3>
+                            <p class="project__details"><span class="project__category">Front-End</span> • <span class="project__date">2023</span></p>
+                            <p class="project__description">
+                                A web app that integrates with Rest Countries API to pull a country data and display like in the design shown.
+                            </p>
+                            <button class="project__button">
+                                Visit live
+                                <img src="./assets/arrow-right.svg" alt="">
+                            </button>
+                        </div>
+
+                    </a>
+
+                    <a href="https://jobsearch-google.netlify.app/" target="_blank" class="project">
+                        <div class="project__text">
+                            <h3 class="project__title">Google Jobs</h3>
+                            <p class="project__details"><span class="project__category">Front-End</span> • <span class="project__date">2023</span></p>
+                            <p class="project__description">
+                                What is the current jobs market? Let's make a job search app with Google Jobs API.
+                            </p>
+                            <button class="project__button">
+                                Visit live
+                                <img src="./assets/arrow-right.svg" alt="">
+                            </button>
+                        </div>
+
+                        <img class="project__image project__image--1" src="/assets/googlejobs.png" alt="">
+                    </a>
+
+                </div>
+
+
+            </section>
+        </main>
+
+    </header>
+
+    <footer id="contact">
+        <section class="container container--large">
+            <div class="socials">
+                <a href="https://github.com/Bibhav-11"><img class="social-icons" src="/assets/github.svg" alt=""></a>
+                <a href=""><img class="social-icons" src="/assets/linkedin.svg" alt=""></a>
+                <a href="mailto:bibhav.25@gmail.com"><img class="social-icons" src="/assets/email.svg" alt=""></a>
+
+            </div>
+
+            <p class="copyright">Copyright © 2023 Bibhav Lamichhane. All rights reserved.</p>
+        </section>
+    </footer>
+    
+</body>
+</html>
