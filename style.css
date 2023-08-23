@@ -441,6 +441,11 @@ footer {
     max-height: 45rem;
   }
 
+  .project__image--2 {
+    right: 0;
+    margin-top: -15rem;
+  }
+
   .nav__container {
     height: 8rem;
   }
