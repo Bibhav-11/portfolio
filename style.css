@@ -290,6 +290,10 @@ nav {
   margin-bottom: 10rem;
 }
 
+.project__text.backend {
+  max-width: none;
+}
+
 .project__text {
   max-width: 50%;
 }
